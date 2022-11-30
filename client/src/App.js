@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import SignUp from "./components/SignUp";
 import Private from "./components/Private";
+import Login from "./components/Login";
 
 import "./App.css";
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/profile" element={<h1>Profile Component</h1>} />
           </Route>
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/log" element={<Login/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

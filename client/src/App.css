@@ -39,4 +39,10 @@
   background-color: aqua;
   border: solid 1px;
   cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
 }
